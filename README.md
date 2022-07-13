@@ -1,7 +1,7 @@
 # swaglabs-checkout
 Automate online shopping experience
 ---
-# Playwright and JavaScript Setup Guide
+# Playwright Setup Guide
 ---
 
 ## Features of this framework
@@ -20,6 +20,6 @@ Automate online shopping experience
 
 ### How to Run Test
 
-* From root directory, to run single test on single browser through multiple workers: npx playwright test ./products.spec.js --project=chromium --headed
-* From root directory, to run entire suite on single browser through multiple workers: npx playwright test tests/ --project=chromium --headed 
-* From root directory, to run entire suite on all configured browsers and devices through multiple workers: npx playwright test tests/ --project=chromium --headed 
+* From root directory, to run single test on single browser through multiple workers: `npx playwright test ./products.spec.js --project=chromium --headed`
+* From root directory, to run entire suite on single browser through multiple workers: `npx playwright test tests/ --project=chromium --headed` 
+* From root directory, to run entire suite on all configured browsers and devices through multiple workers: `npx playwright test tests/ --headed` 
