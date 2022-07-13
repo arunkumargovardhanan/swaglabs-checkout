@@ -1,0 +1,36 @@
+{
+    "name": "swaglabs-checkout",
+    "version": "1.0.0",
+    "description": "Automate online shopping experience",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "run-test": "npx playwright test",
+        "test-debug": "PWDEBUG=1 npx playwright test",
+        "test-debug-windows": "set PWDEBUG=1 && npx playwright test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/arunkumargovardhanan/swaglabs-checkout.git"
+    },
+    "keywords": [
+        "swaglabs",
+        "automation",
+        "playwright"
+    ],
+    "author": "Arunkumar Govardhanan",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/arunkumargovardhanan/swaglabs-checkout/issues"
+    },
+    "homepage": "https://github.com/arunkumargovardhanan/swaglabs-checkout#readme",
+    "devDependencies": {
+        "@playwright/test": "^1.23.0",
+        "dotenv": "^10.0.0",
+        "expect-playwright": "^0.8.0",
+        "playwright-expect": "^0.1.2"
+    },
+    "dependencies": {
+        "playwright": "^1.23.2"
+    }
+}
